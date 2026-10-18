@@ -24,13 +24,23 @@ avancé pour l'étendre ne résiste pas au calcul : il échoue d'un facteur 110.
 |---|---:|---:|---:|---|
 | Assainissement parodontal (DSR) | 471 | 209 700 | ×445 | depuis 2019-2020 |
 | Bilan parodontal (`HBQD001`) | 1 077 | 62 420 | ×58 | depuis 2019 |
-| **Surfaçage radiculaire (`HBGB006`)** | **5 526** | **11 327** | **×2** | **jamais** |
+| **Surfaçage radiculaire (`HBGB006`)** | **5 527** | **11 327** | **×2** | **jamais** |
 | Détartrage (`HBJD001`) | 21,6 M | 41,4 M | ×1,9 | depuis toujours |
+
+Avant 2019, les trois actes sont plats ou en recul : le DSR passe de 471 à 443
+actes entre 2015 et 2017, le bilan parodontal est divisé par deux (1 077 à 499).
+Puis le remboursement arrive, et seuls les deux actes concernés décollent —
+chaque année, sans palier, jusqu'à 2025.
 
 Le surfaçage radiculaire sert de témoin : jamais remboursé, il progresse d'un
 facteur 2 sur la période — exactement comme le détartrage, remboursé depuis
-toujours. Ses voisins devenus remboursables progressent d'un à deux ordres de
-grandeur.
+toujours. Son montant remboursé est resté nul sur l'ensemble des onze années.
+
+| Acte | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Assainissement parodontal (DSR) | 471 | 420 | 443 | 684 | 4 243 | 42 721 | 69 143 | 95 907 | 119 087 | 168 893 | 209 700 |
+| Bilan parodontal | 1 077 | 538 | 499 | 666 | 19 743 | 24 515 | 29 590 | 33 706 | 40 320 | 53 341 | 62 420 |
+| **Surfaçage radiculaire** | **5 527** | **4 676** | **4 131** | **5 628** | **11 565** | **8 998** | **7 225** | **7 809** | **9 161** | **11 043** | **11 327** |
 
 La HAS l'avait anticipé dès 2018 : « la volumétrie très faible des actes de
 surfaçage et de bilan codifiés pourrait s'expliquer par leur non prise en charge
@@ -132,7 +142,9 @@ pas été réexaminée après décembre 2018 ? »**
   la récupération entre le coût de l'extraction seul et extraction + une prothèse.
 - Le coût remboursé n'est pas le coût social : reste à charge, complémentaires,
   douleur, arrêts de travail et perte dentaire elle-même sont hors champ.
-- Les années 2016, 2017, 2021 et 2023 manquent à la série CCAM.
+- Le champ des données CNAM est « tous régimes ». Les volumes publiés par la HAS
+  pour 2016 représentent 82 à 89 % des volumes de cette série sur les mêmes codes,
+  un écart constant qui suggère un champ plus étroit côté HAS, non précisé par elle.
 - Le fichier 2015 utilise un libellé de catégorie différent ; les séries
   pluriannuelles s'appuient sur le préfixe de code `HB`, pas sur la catégorie CNAM.
 - Lecture du rapport HAS : avis et rapport d'évaluation technologique (68 pages),
