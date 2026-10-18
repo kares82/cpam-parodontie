@@ -1,11 +1,13 @@
 # CPAM dental prevention analysis
 
-Does the French health insurance system's restriction of periodontal treatment
-reimbursement to diabetic ALD patients hold up against its own evidence and its
-own accounts?
+Eleven years of CNAM act-level data (2015-2025) on periodontal treatment in
+France, and the case for reimbursing it beyond patients with a diabetes ALD.
 
-Short answer: the clinical and consistency case holds; **the economic case does
-not**, and this analysis is partly a negative result.
+The short version: HAS evaluated the act for aggressive and chronic
+periodontitis; France reimburses it only for diabetics; without reimbursement
+the act is not performed at all; and lifting the restriction would cost under 5%
+of dental spending. The usual cost-saving argument for lifting it does **not**
+hold, and this repository says so — that part is a negative result.
 
 ## Read it
 
@@ -15,26 +17,39 @@ not**, and this analysis is partly a negative result.
 | The note as markdown | [`NOTE.md`](NOTE.md) |
 | Source of the published page | [`out/note.html`](out/note.html) |
 
-## The three findings
+## What the data shows
 
-**Reimbursement, not clinical need, determines which periodontal acts happen.**
-Surfaçage radiculaire (`HBGB006`) has never been reimbursed and grew 2× between
-2015 and 2025 — the same as détartrage, which has always been covered. Two
-near-identical acts that became reimbursable in 2019–2020 grew 58× and 445×.
+**A whole clinical entity sits outside the reimbursement.** HAS evaluated DSR
+"dans la prise en charge des parodontites agressives et chroniques". France
+reimburses it only for patients with a diabetes ALD. Aggressive periodontitis,
+in HAS's own description, hits adolescents and young adults, is severe and
+progresses fast — and those patients almost never hold a diabetes ALD.
 
-**The restriction to diabetic ALD patients predates the evaluation that was meant
-to inform it.** It was set by the convention of 21 June 2018. HAS reported in
-December 2018; its own scope statement is the evaluation of DSR "dans la prise
-en charge des parodontites agressives et chroniques", with no population
-restriction. CNAM had commissioned that evaluation in September 2017. It has
-never been revisited against it.
+**Without reimbursement the act is not performed.** Surfaçage radiculaire
+(`HBGB006`) has never been reimbursed and grew 2× between 2015 and 2025 — the
+same as détartrage, which has always been covered. Two near-identical acts that
+became reimbursable in 2019–2020 grew 58× and 445×. Before 2019 all three were
+flat or falling. The reimbursement rule doesn't only decide who pays; it decides
+who gets treated.
 
-**The cost-avoidance argument fails by a factor of 110.** Five years of annual
-DSR costs CPAM €929 per patient and recovers at most €13.72 in avoided
-downstream reimbursement. Not because prevention doesn't work, but because CPAM
-reimburses only €45 for an extraction and €60 for a prosthetic act — the real
-cost of tooth loss falls on patients and complementary insurers, so there is
-very little downstream CPAM spend to avoid.
+**The restriction is conventional, not clinical, and nobody revisited it.** It
+was set by the convention of 21 June 2018; CNAM had commissioned the HAS
+evaluation in September 2017 and HAS reported in December 2018, on a wider
+population. When a deputy asked the health ministry in July 2019 why
+periodontitis care isn't reimbursed, the answer came 33 months later and
+mentioned neither the HAS evaluation, nor the convention's periodontal
+provisions, nor the ALD condition.
+
+**Lifting it would cost under 5% of dental spending.** €18.6M to €185.8M a year
+depending on uptake, against €3,806M reimbursed for dental acts in 2025.
+
+**But the cost-avoidance argument fails by a factor of 110 — and that failure is
+itself the argument.** Five years of annual DSR costs CPAM €929 per patient and
+recovers at most €13.72 downstream. Not because prevention doesn't work, but
+because CPAM reimburses only €45 for an extraction and €60 for a prosthetic act.
+The real cost of tooth loss falls on patients and complementary insurers. So
+withholding reimbursement isn't a saving — it's a transfer onto households, and
+it lands hardest on people who can't pay €1,000 out of pocket.
 
 ## What's here
 
