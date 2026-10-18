@@ -12,7 +12,7 @@ Analyse indépendante · code et données reproductibles
 La prise en charge du détartrage-surfaçage radiculaire (DSR) a été ouverte en 2018
 par voie conventionnelle aux seuls patients en ALD « diabète ». L'évaluation que la
 CNAM avait elle-même commandée à la HAS, publiée six mois plus tard, portait sur
-l'ensemble des parodontites chroniques, sans restriction de population. Cette
+les parodontites agressives et chroniques, sans restriction de population. Cette
 restriction n'a pas été revue depuis. **Mais l'argument d'économie habituellement
 avancé pour l'étendre ne résiste pas au calcul : il échoue d'un facteur 110.**
 
@@ -61,8 +61,9 @@ parodontale (763 actes) et l'assainissement par lambeau (123 actes).
 - **Décembre 2018** — la HAS conclut, sur 5 recommandations, 3 rapports
   d'évaluation technologique et 18 méta-analyses, que les données sont
   « concordantes avec la demande de remboursement de l'acte de DSR ». La
-  population évaluée est « les patients ayant des parodontites chroniques ».
-  Ni le diabète ni l'ALD n'y figurent comme condition d'éligibilité.
+  périmètre évalué est, selon le rapport lui-même, « la prise en charge des
+  parodontites agressives et chroniques ». Ni le diabète ni l'ALD n'y figurent
+  comme condition d'éligibilité.
 
 L'évaluation est donc arrivée six mois après la décision, et portait sur un
 périmètre plus large que celui retenu. Ce n'est pas une contradiction : c'est une

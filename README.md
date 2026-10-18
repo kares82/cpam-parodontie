@@ -24,9 +24,10 @@ near-identical acts that became reimbursable in 2019–2020 grew 58× and 445×.
 
 **The restriction to diabetic ALD patients predates the evaluation that was meant
 to inform it.** It was set by the convention of 21 June 2018. HAS reported in
-December 2018, assessing DSR for "les patients ayant des parodontites
-chroniques" with no population restriction. CNAM had commissioned that
-evaluation in September 2017. It has never been revisited against it.
+December 2018; its own scope statement is the evaluation of DSR "dans la prise
+en charge des parodontites agressives et chroniques", with no population
+restriction. CNAM had commissioned that evaluation in September 2017. It has
+never been revisited against it.
 
 **The cost-avoidance argument fails by a factor of 110.** Five years of annual
 DSR costs CPAM €929 per patient and recovers at most €13.72 in avoided
