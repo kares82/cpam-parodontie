@@ -1,0 +1,30 @@
+UNIT COSTS TO CPAM (2025, reimbursed / quantity)
+  extraction (avulsion), mean         45.11 EUR
+  prosthetic act, mean                60.46 EUR
+  DSR episode, volume-weighted       185.82 EUR   (209,700 episodes)
+
+FIVE YEARS OF ANNUAL DSR, PER PATIENT     929.08 EUR
+
+COST PER TOOTH SAVED (5 years of therapy, Hansen et al.)
+  optimistic (CI high)     0.13 teeth  ->        7,147 EUR per tooth
+  central estimate         0.08 teeth  ->       11,614 EUR per tooth
+  conservative (CI low)    0.04 teeth  ->       23,227 EUR per tooth
+
+VALUE RECOVERED PER TOOTH SAVED, TO CPAM
+  floor   (extraction avoided only)          45.11 EUR
+  ceiling (extraction + one prosthesis)     105.58 EUR
+
+NET POSITION PER PATIENT, 5 YEARS
+  CI high   spend   929.08  recover    5.86-  13.72  net   -915.36 EUR (best case)
+  central   spend   929.08  recover    3.61-   8.45  net   -920.64 EUR (best case)
+  CI low    spend   929.08  recover    1.80-   4.22  net   -924.86 EUR (best case)
+
+BREAK-EVEN: DSR would need to be 110x cheaper, or 110x more effective,
+for direct reimbursed-cost avoidance to pay for itself.
+
+WHAT THE CURRENT RESTRICTION COSTS TO LIFT (arithmetic, not forecast)
+  +  100,000 DSR episodes/yr  ->  +  18.6 M EUR/yr
+  +  500,000 DSR episodes/yr  ->  +  92.9 M EUR/yr
+  +1,000,000 DSR episodes/yr  ->  + 185.8 M EUR/yr
+
+  for scale: 2025 dental reimbursement, all categories, 3,806 M EUR
