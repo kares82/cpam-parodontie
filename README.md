@@ -74,9 +74,19 @@ python cost_model.py          # -> stdout
 ## Three things worth knowing before you trust a number
 
 **Aggregate on `code_acte` before summing anything.** The source carries one row
-per code × activity × phase. Raw sums double-count. The 2015 détartrage figure
-reconciles with HAS's published 2016 figure (21.6M vs 21.5M) only after
-aggregation — that reconciliation is the check that the pipeline is right.
+per code × activity × phase. Raw sums double-count: 2015 détartrage reads 41M
+before aggregation and 21.6M after, and 41M is impossible on its face — one
+scaling per 1.6 people in France per year.
+
+**Don't use HAS's Table 9 as a reconciliation check.** It is tempting, and it is
+wrong. HAS reports 2016 counts of 21,519,927 détartrages, 3,922 surfaçages and
+441 bilans. This panel's 2016 figures are 24,104,467, 4,676 and 538 — HAS sits
+at 89%, 84% and 82% of them. A consistent shortfall across three independent
+codes points to HAS using régime général where the open data is explicitly
+`Champ : Tous régimes`; HAS does not state its scope in that table. An earlier
+version of this README claimed the 2015 détartrage figure (21.6M) reconciled
+with HAS's 21.5M. That was a coincidence of comparing the wrong year against a
+narrower scope, not a validation.
 
 **Volumes of an unreimbursed act measure coding, not need.** HAS says so
 explicitly in the 2018 report: "la volumétrie très faible des actes de surfaçage
@@ -90,7 +100,6 @@ row only.
 
 ## Known gaps
 
-- 2016, 2017, 2021 and 2023 are missing from the CCAM series
 - The département panel starts at 2020: 2017 and 2018 split NGAP and CCAM into
   separate columns under different labels, and forcing that join would need its
   own mapping note

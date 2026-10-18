@@ -296,8 +296,8 @@
     <div class="panel">
       <h3>Nombre d&rsquo;actes par an, 2015–2025</h3>
       <p class="readme">
-        Deux courbes décollent au moment du remboursement. La troisième, jamais remboursée,
-        reste plate.
+        Quatre années plates, puis deux courbes décollent au moment du remboursement.
+        La troisième, jamais remboursée, ne décolle pas.
       </p>
       <ul class="legend">
         <li><span class="swatch" style="background: var(--s1)"></span> Assainissement parodontal (DSR)</li>
@@ -307,7 +307,7 @@
 
       <div class="plot" id="plot">
         <svg class="chart" id="chart" viewBox="0 0 820 440" role="img"
-             aria-label="Nombre d'actes parodontaux par an, 2015 à 2025. Les actes devenus remboursables en 2019-2020 passent de quelques centaines à plus de 200 000 par an. Le surfaçage radiculaire, jamais remboursé, reste sous 12 000. Les valeurs exactes figurent dans le tableau sous le graphique.">
+             aria-label="Nombre d'actes parodontaux par an, 2015 à 2025. Les actes devenus remboursables en 2019-2020 passent de quelques centaines à plus de 200 000 par an. Le surfaçage radiculaire, jamais remboursé, reste sous 12 000 sur toute la période. Les valeurs exactes figurent dans le tableau sous le graphique.">
           <rect x="277.6" y="24" width="55.4" height="348" fill="var(--band)"></rect>
           <text class="bandlabel" x="305.3" y="18" text-anchor="middle">REMBOURSEMENT</text>
 
@@ -324,13 +324,12 @@
           <text class="tick" x="48" y="376.4" text-anchor="end">0</text>
 
           <text class="tick" x="56"    y="393" text-anchor="middle">2015</text>
-          <text class="tick" x="222.2" y="393" text-anchor="middle">2018</text>
+          <text class="tick" x="166.8" y="393" text-anchor="middle">2017</text>
           <text class="tick" x="277.6" y="393" text-anchor="middle">2019</text>
-          <text class="tick" x="333"   y="393" text-anchor="middle">2020</text>
-          <text class="tick" x="443.8" y="393" text-anchor="middle">2022</text>
-          <text class="tick" x="554.6" y="393" text-anchor="middle">2024</text>
+          <text class="tick" x="388.4" y="393" text-anchor="middle">2021</text>
+          <text class="tick" x="499.2" y="393" text-anchor="middle">2023</text>
           <text class="tick" x="610"   y="393" text-anchor="middle">2025</text>
-          <text class="tick" x="56" y="418" text-anchor="start">Nombre d&rsquo;actes · années 2016, 2017, 2021 et 2023 non disponibles</text>
+          <text class="tick" x="56" y="418" text-anchor="start">Nombre d&rsquo;actes par an · série complète 2015–2025</text>
 
           <g id="marks"></g>
 
@@ -356,9 +355,10 @@
           <thead>
             <tr>
               <th scope="col">Acte</th>
-              <th scope="col">2015</th><th scope="col">2018</th><th scope="col">2019</th>
-              <th scope="col">2020</th><th scope="col">2022</th><th scope="col">2024</th>
-              <th scope="col">2025</th>
+              <th scope="col">2015</th><th scope="col">2016</th><th scope="col">2017</th>
+              <th scope="col">2018</th><th scope="col">2019</th><th scope="col">2020</th>
+              <th scope="col">2021</th><th scope="col">2022</th><th scope="col">2023</th>
+              <th scope="col">2024</th><th scope="col">2025</th>
             </tr>
           </thead>
           <tbody id="tbody"></tbody>
@@ -367,9 +367,16 @@
     </div>
 
     <p>
-      Le témoin progresse exactement comme le détartrage, remboursé depuis toujours&nbsp;:
-      un facteur 2 en onze ans. Ses voisins devenus remboursables progressent d&rsquo;un à deux
-      ordres de grandeur.
+      Avant 2019, les trois actes sont plats ou en recul&nbsp;: le DSR passe de 471 à 443 actes
+      entre 2015 et 2017, le bilan parodontal est divisé par deux (1&nbsp;077 à 499). Puis le
+      remboursement arrive, et seuls les deux actes concernés décollent — chaque année, sans
+      palier, jusqu&rsquo;à 2025.
+    </p>
+    <p>
+      Le témoin, lui, progresse exactement comme le détartrage, remboursé depuis toujours&nbsp;:
+      un facteur 2 en onze ans. Il connaît un seul ressaut, en 2019, l&rsquo;année où le bilan
+      devient remboursable — puis retombe. Son montant remboursé est resté nul sur toute la
+      période.
     </p>
 
     <div class="tablewrap">
@@ -381,7 +388,7 @@
         <tbody>
           <tr><th scope="row">Assainissement parodontal (DSR)</th><td>471</td><td>209 700</td><td>×445</td><td>2019–2020</td></tr>
           <tr><th scope="row">Bilan parodontal <code>HBQD001</code></th><td>1 077</td><td>62 420</td><td>×58</td><td>2019</td></tr>
-          <tr class="control"><th scope="row"><span class="dot" style="background: var(--s3)"></span>Surfaçage radiculaire <code>HBGB006</code></th><td>5 526</td><td>11 327</td><td>×2</td><td>jamais</td></tr>
+          <tr class="control"><th scope="row"><span class="dot" style="background: var(--s3)"></span>Surfaçage radiculaire <code>HBGB006</code></th><td>5 527</td><td>11 327</td><td>×2</td><td>jamais</td></tr>
           <tr><th scope="row">Détartrage <code>HBJD001</code></th><td>21,6 M</td><td>41,4 M</td><td>×1,9</td><td>depuis toujours</td></tr>
         </tbody>
       </table>
@@ -516,9 +523,11 @@
         borne la récupération entre l&rsquo;extraction seule et extraction + une prothèse.</li>
       <li>Le coût remboursé n&rsquo;est pas le coût social&nbsp;: reste à charge, complémentaires,
         douleur, arrêts de travail et perte dentaire elle-même sont hors champ.</li>
-      <li>Les années 2016, 2017, 2021 et 2023 manquent à la série CCAM.</li>
       <li>Les séries pluriannuelles s&rsquo;appuient sur le préfixe de code <code>HB</code>,
         le fichier 2015 utilisant un libellé de catégorie différent.</li>
+      <li>Le champ des données CNAM est «&nbsp;tous régimes&nbsp;». Les volumes publiés par la
+        HAS pour 2016 représentent 82 à 89&nbsp;% de ceux de cette série sur les mêmes codes,
+        un écart constant qui suggère un champ plus étroit côté HAS, qu&rsquo;elle ne précise pas.</li>
       <li>Le DSR agrège <code>HBJA003</code> (1 sextant), <code>HBJA171</code> (2 sextants)
         et <code>HBJA634</code> (3 sextants ou plus). Les lignes sources sont agrégées par
         code acte, chaque acte figurant une fois par activité et par phase dans le fichier
@@ -567,14 +576,14 @@
   });
 
   /* ---------- chart ---------- */
-  const YEARS = [2015, 2018, 2019, 2020, 2022, 2024, 2025];
+  const YEARS = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
   const SERIES = [
     { key: "dsr",   name: "Assainissement parodontal (DSR)", color: "var(--s1)",
-      q: [471, 684, 4243, 42721, 95907, 168893, 209700] },
+      q: [471, 420, 443, 684, 4243, 42721, 69143, 95907, 119087, 168893, 209700] },
     { key: "bilan", name: "Bilan parodontal", color: "var(--s2)",
-      q: [1077, 666, 19743, 24515, 33706, 53341, 62420] },
+      q: [1077, 538, 499, 666, 19743, 24515, 29590, 33706, 40320, 53341, 62420] },
     { key: "surf",  name: "Surfaçage radiculaire", color: "var(--s3)",
-      q: [5526, 5628, 11565, 8998, 7809, 11043, 11327] }
+      q: [5527, 4676, 4131, 5628, 11565, 8998, 7225, 7809, 9161, 11043, 11327] }
   ];
 
   const VIEW_W = 820;
