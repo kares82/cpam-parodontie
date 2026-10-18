@@ -11,10 +11,9 @@ not**, and this analysis is partly a negative result.
 
 | | |
 |---|---|
-| **La note** (français) | https://claude.ai/artifact/1wP2uPBSrCe7z34UBFat62 |
-| **Le graphique** | https://claude.ai/artifact/VU7m2owzsix3aJd217xCnb |
+| **La note, graphique inclus** (français) | https://claude.ai/artifact/1wP2uPBSrCe7z34UBFat62 |
 | The note as markdown | [`NOTE.md`](NOTE.md) |
-| The chart, standalone | [`out/parodontie.html`](out/parodontie.html) |
+| Source of the published page | [`out/note.html`](out/note.html) |
 
 ## The three findings
 
